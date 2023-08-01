@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll's Revival Dollmaker | Dollz Mania</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Oswald:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/dollzmania.css">
+</head>
+
+<body onload="dragMove('theTwo')">
+    <!--Navbar-->
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-light p-2 border-bottom border-dark fixed-top"
+        aria-label="Dollzmania navbar">
+        <a class="navbar-brand" href="home.html"> <img src="imgs/logo.png" alt="Dollzmania" height="45"> </a>
+        <!--Button to toggle hamburger when medium-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dolls-nav"
+            aria-controls="dolls-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> </button>
+        <!--Text of Nav Start-->
+        <div class="collapse navbar-collapse" id="dolls-nav">
+            <!--Left nav-->
+            <ul id="ul-nav" class="nav me-auto mb-2 mb-md-0">
+                <li class="nav-item"> <a class="nav-link " href="dollmakers.html">Dollmakers</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link " href="about.html">About</a> </li>
+                <li class="nav-item"> <a class="nav-link " href="contact.html">Contact</a> </li>
+                <li class="nav-item d-md-none"> <a class="nav-link " href="#">Login</a> </li>
+                <li class="nav-item d-md-none"> <a class="nav-link " href="#">Sign up</a> </li>
+            </ul>
+            <!--Right nav-->
+            <ul class="nav">
+                <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Login</a> </li>
+                <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Sign up</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main content goes here-->
+    <main>
+        <div class="dollmaker-head">
+        <div class="button-space">
+            <a href="dollmakers.html"  id="back-button" class="btn btn-outline-dark">Back</a>
+        </div>
+        <div>
+            <h1 class="dollmaker-nopad">Doll's Revival</h1>
+        </div>
+        <div>
+        </div>
+    </div>
+
+        <div class="dollmaker-container">
+            <div class="doll-flex" id="maker">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="body-tab" data-bs-toggle="tab" data-bs-target="#body-tab-pane"
+                            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Body</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="clothes-tab" data-bs-toggle="tab"
+                            data-bs-target="#clothes-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false">Clothes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="shoes-tab" data-bs-toggle="tab" data-bs-target="#shoes-tab-pane"
+                            type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false">Shoes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="hair-tab" data-bs-toggle="tab" data-bs-target="#hair-tab-pane"
+                            type="button" role="tab" aria-controls="hair-tab-pane" aria-selected="false">Hair</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="accessories-tab" data-bs-toggle="tab"
+                            data-bs-target="#accessories-tab-pane" type="button" role="tab"
+                            aria-controls="accessories-tab-pane" aria-selected="false">Accessories</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <!--Body tab-->
+                    <div class="tab-pane fade show active" id="body-tab-pane" role="tabpanel" aria-labelledby="body-tab" active
+                        tabindex="0">
+                        <div class="doll-items">
+                            <img class="dr-body" src="imgs/drevival/fem-torso-1.gif" alt="Fem torso 1">
+                            <img class="dr-body" src="imgs/drevival/fem-torso-2.gif" alt="Fem torso 2" id="theTwo">
+                            <img class="dr-body" src="imgs/drevival/fem-torso-3.gif" alt="Fem torso 3">
+                            <img class="dr-body" src="imgs/drevival/masc-torso-1.gif" alt="Masc torso 1">
+                            <img class="dr-body" src="imgs/drevival/masc-torso-2.gif" alt="Masc torso 2">
+                            <img class="dr-body" src="imgs/drevival/masc-torso-3.gif" alt="Masc torso 3">
+                            <img class="dr-body" src="imgs/drevival/fem-legs-1.gif" alt="Fem legs 1">
+                            <img class="dr-body" src="imgs/drevival/fem-legs-2.gif" alt="Fem legs 2">
+                            <img class="dr-body" src="imgs/drevival/fem-legs-3.gif" alt="Fem legs 3">
+                            <img class="dr-body" src="imgs/drevival/masc-legs-2.gif" alt="Masc legs 2">
+                            <img class="dr-body" src="imgs/drevival/masc-legs-3.gif" alt="Masc legs 3">
+                            <img class="dr-body" src="imgs/drevival/left-arm-2.gif" alt="Left arm 2">
+                            <img class="dr-body" src="imgs/drevival/left-arm-3.gif" alt="Left arm 3">
+                            <img class="dr-body" src="imgs/drevival/right-arm-2.gif" alt="Right arm 2">
+                            <img class="dr-body" src="imgs/drevival/right-arm-3.gif" alt="Right arm 3">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="clothes-tab-pane" role="tabpanel"
+                        aria-labelledby="clothes-tab" tabindex="0">
+                       ...
+                    </div>
+                    <div class="tab-pane fade" id="shoes-tab-pane" role="tabpanel" aria-labelledby="shoes-tab"
+                        tabindex="0">...</div>
+    <!--CHANGE ME-->
+                    <div class="tab-pane fade" id="hair-tab-pane" role="tabpanel" aria-labelledby="hair-tab"
+                        tabindex="0">
+                        <div class="doll-items">
+                            <img src="imgs/desdemona/black-afro.gif" alt="Black Afro">
+                            <img src="imgs/desdemona/brown-afro.gif" alt="Brown Afro">
+                            <img src="imgs/desdemona/red-afro.gif" alt="Red Afro">
+                            <img src="imgs/desdemona/black-pigtails.gif" alt="Black Pigtails">
+                            <img src="imgs/desdemona/red-pigtails.gif" alt="Red Pigtails">
+                            <img src="imgs/desdemona/purple-pigtails.gif" alt="Purple Pigtails">
+                            <img class="pixie" src="imgs/desdemona/black-pixie.gif" alt="Black Pixie">
+                            <img class="pixie" src="imgs/desdemona/brown-pixie.gif" alt="Brown Pixie">
+                            <img src="imgs/desdemona/black-buns.gif" alt="Black Buns">
+                            <img src="imgs/desdemona/red-buns.gif" alt="Red Buns">
+                            <img src="imgs/desdemona/purple-buns.gif" alt="Purple Buns">
+                            <img src="imgs/desdemona/red-bob.gif" alt="Red Bob">
+                            <img src="imgs/desdemona/black-bob.gif" alt="Black Bob">
+                            <img src="imgs/desdemona/blonde-bob.gif" alt="Blonde Bob">
+                            <img src="imgs/desdemona/blue-medium.gif" alt="Blue Medium Length">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="accesories-tab-pane" role="tabpanel"
+                        aria-labelledby="accessories-tab" tabindex="0">...</div>
+                </div>
+            </div>
+            <div id="doll-display"></div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer id="foot-navbar" class="border-top border-dark">
+        <div id="foot-top">
+            <div class="ends-foot">
+                <a href="home.html"> <img src="imgs/logo.png" alt="Dollzmania"> </a>
+            </div>
+            <div id="middle-foot">
+                <p>Creating and finding Dollz is a beloved pasttime of the former internet. Many of the original Dollz
+                    sites
+                    have gone offline. It is the objective of this website to archive as much of this as possible,
+                    before the
+                    rest are gone as well. Sign up and and keep dollz alive.
+                </p>
+            </div>
+            <div class="ends-foot" id="foot-button">
+                <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="button">Sign Up</button>
+            </div>
+        </div>
+        <div id="foot-bottom">
+            <!--Had to do bottom part in Bootstrap to avoid overlapping the links with regular flexbox-->
+            <ul class="nav justify-content-center">
+                <li class="nav-item d-none d-md-block px-2 mb-2">
+                    <a class="nav-link" href="devs.html">Developers</a>
+                </li>
+                <li class="nav-item  d-none d-md-block">
+                    <a class="nav-link" href="dollmakers.html">Dollmakers</a>
+                </li>
+                <li class="nav-item  d-none d-md-block">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item  d-none d-md-block">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item  d-none d-md-block">
+                    <a class="nav-link ">Login</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--Bootstrap Java-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Custom Java-->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#main-navbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            })
+        })
+    </script>
+    <!--Drag and Drop JavaScript-->
+    <script>
+    var drag;
+        function dragMove(id){
+          var element = document.getElementById("theTwo");
+          element.style.position = "absolute";
+          element.onmousedown = function(){
+            drag = element;
+          }
+        }
+
+        document.onmouseup = function(e){
+            drag = null;
+        }
+        document.onmousemove = function(e){
+            var x = e.pageX;
+            var y = e.pageY;
+
+            drag.style.left = x + "px";
+            drag.style.top = y + "px";
+        }
+   </script>
+</body>
+
+</html>

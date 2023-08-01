@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dollz Mania</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dollzmania.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="main-navbar" class="navbar navbar-expand-md navbar-light p-2  fixed-top" aria-label="Dollzmania navbar">
+    <a class="navbar-brand" href="home.html"> <img src="imgs/logo.png" alt="Dollzmania" height="45"> </a>
+    <!--Button to toggle hamburger when medium-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dolls-nav"
+      aria-controls="dolls-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> </button>
+    <!--Text of Nav Start-->
+    <div class="collapse navbar-collapse" id="dolls-nav">
+      <!--Left nav-->
+      <ul id="ul-nav" class="nav me-auto mb-2 mb-md-0">
+        <li class="nav-item"> <a class="nav-link " href="dollmakers.html">Dollmakers</a></li>
+        <li class="nav-item"> <a class="nav-link " href="about.html">About</a> </li>
+        <li class="nav-item"> <a class="nav-link " href="contact.html">Contact</a> </li>
+        <li class="nav-item d-md-none"> <a class="nav-link " href="#">Login</a> </li>
+        <li class="nav-item d-md-none"> <a class="nav-link " href="#">Sign up</a> </li>
+      </ul>
+      <!--Right nav-->
+      <ul class="nav">
+        <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Login</a> </li>
+        <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Sign up</a> </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+  <!--Main content goes here-->
+  <main>
+    <h1>About DOLLZ</h1>
+    <div class="about-box">
+        <div class="about-pic">
+            <img src="imgs/about/Original-Dolls.png" alt="The Original Dollz">
+           
+
+
+        </div>
+
+        <div class="about-content">
+            <p>Dollz is said to have started with The Palace, which was created by Jim Bumgardner in 1997. It began as a place where users could create avatars and chat anonymously. These avatars became known as “dollz”; digital paper dolls. 
+            </p>
+            <p>Dollz began with three pieces — the naked body sliced up into a head, torso, and legs. There were six props left for clothing items. Some of the original Dollz are organized into types. There are 'Preps', 'Minis', 'Wonderkins', 'Silents' and 'Divas', to name a few. You can find the link to many Dollmakers on the homepage.
+            </p>
+            <p>In tribute to the game, Dollz websites emerged with modifications to the original art. The social aspect of it was transformed into using Dollz as a showcase of self-expression on a website. As the popularity began to grow, it expanded from a hobby to a more accepted form of art. Graphic artists began to create highly detailed Dollz. Regular artists also followed the trend and created dolls that were less cartoon-like and more realistic. Forums began to sprout, bringing together a community of Dollers, the community's name for Doll creators. Dollers also began to organize pageants, which are multi-round contests, usually following the model of beauty pageants.</p>
+            <p>Many Doll websites would allow people to 'adopt' a doll from their site as long as the file remains unedited, they are given credit as the original artist, and a link is posted to their website. Dolling e-zines, which included articles, and interviews with dollers. Some notable ones are The Doller Express and Pixel Post Magazine. Over time, Dollers soon began to spell "dolls" with an "s" in order to distinguish them from the earlier Palace-era internet fad.</p>
+            <p>By the early 2000s, creators started making their own doll bodies. That was the beginning of the doll evolution at the Delphi forums from simple Palace dolls, to more lifelike Dollz. In 2004, Korean dolls called Candybar Dolls became very popular. These are beautifully detailed dolls, originally created by artists for use as avatars at a Korean game website. These props have been taken by many admiring fans and distributed all over the web, even made into Dollmakers. They are so widely distributed, that many unknowing Doll Collectors think they are free domain. On August 3, 2007, DeviantArt.com added a 'Dollz' category, which further contributed to the establishment of Dolling as a legitimate internet art form.
+            </p>
+        </div>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+  <!--Footer-->
+  <footer id="foot-navbar" class="border-top border-dark">
+    <div id="foot-top">
+      <div class="ends-foot">
+          <a href="home.html"> <img src="imgs/logo.png" alt="Dollzmania"> </a>
+      </div>
+      <div id="middle-foot">
+          <p>Creating and finding Dollz is a beloved pasttime of the former internet. Many of the original Dollz sites
+              have gone offline. It is the objective of this website to archive as much of this as possible, before the
+              rest are gone as well. Sign up and and keep dollz alive.
+          </p>
+      </div>
+      <div class="ends-foot" id="foot-button">
+        <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="button">Sign Up</button>
+      </div>
+  </div>
+    <div id="foot-bottom">
+      <!--Had to do bottom part in Bootstrap. It kept overlapping the links with regular flexbox-->
+      <ul class="nav justify-content-center">
+        <li class="nav-item d-none d-md-block px-2 mb-2">
+          <a class="nav-link" href="devs.html">Developers</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link " href="dollmakers.html">Dollmakers</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link ">Login</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--Bootstrap Java-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--Custom Java-->
+  <script>
+    $(function () {
+      $(document).scroll(function(){
+        var $nav = $("#main-navbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      })
+    })
+        </script>
+
+<!--Javascript by CodingLab | www.codinglabweb.com -->
+  <script src="js/swiper-bundle.min.js"></script>
+</body>
+
+</html>

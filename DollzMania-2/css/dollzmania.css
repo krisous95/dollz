@@ -1,0 +1,362 @@
+/*Elements*/
+footer p {
+  font-size: .8rem;
+}
+
+h1 {
+  padding-top: 3rem;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  background-image: url("../imgs/background.png");
+  background-size: cover;
+}
+
+main {
+  margin: 80px 0px 50px 0px;
+}
+
+footer {
+  background-color: #dec7de;
+  padding: 0px 20px;
+}
+
+footer a,
+.foot-nav a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*Dev Classes*/
+.developers {
+  margin: 0px 125px 0px 125px;
+}
+
+.navbar.scrolled {
+  background: #e9c9e9;
+  transition: background .7s;
+}
+
+/*Home Classes*/
+.swipe-container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px 0;
+
+}
+
+.slide-container {
+  overflow: hidden;
+  margin: 0 30px;
+  min-height: 31vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.card .image-box {
+  height: 200px;
+}
+
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  /*THIS */
+}
+
+.home-top .hero img {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border-color: #000;
+}
+
+.home-top {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 400px padding: 0px 40px;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  border-color: #000;
+  border-style: solid;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+#main-navbar {
+  border-bottom: solid #000;
+}
+
+/*Dollmakers Classes*/
+.dollmakers {
+  margin: 50px 0px 20px 0px;
+}
+
+.dollmakers .doll-img,
+.show-container .show-img {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dollmakers .doll-img img,
+.show-container .show-img img {
+  height: 250px;
+  flex: 0 1 18%;
+  padding: 10px;
+}
+
+.show-container .show-img img {
+  border-radius: 25px;
+}
+
+.foot-nav {
+  margin: 0px 100px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/*IDs*/
+#main-navbar #dolls-nav .nav-link,
+#foot-navbar #foot-bottom .nav-link {
+  color: black;
+}
+
+#main-navbar #dolls-nav .nav-link:hover,
+#foot-navbar #foot-bottom .nav-link:hover {
+  font-weight: 600;
+}
+
+main #showcase {
+  padding-top: 2rem;
+}
+
+#dollmaker-button {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  top: 77%;
+  left: 50%;
+}
+
+#foot-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 30px 10px 30px;
+}
+
+#middle-foot {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.ends-foot img {
+  flex: 0 0 100px;
+  height: 70px;
+}
+
+.ends-foot button {
+  width: 160px;
+}
+
+/*Queries*/
+@media (max-width: 767px) {
+  #main-navbar #dolls-nav #ul-nav {
+    background-color: #e9c9e9;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /*Home slider*/
+  .swiper-navBtn,
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swipe-container {
+    display: none;
+  }
+
+  .dollmakers .doll-img,
+  .show-container .show-img {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .show-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .developers {
+    margin: 0px 50px 0px 50px;
+  }
+}
+@media screen and (max-width:600px){
+  .dollmakers .doll-img img,
+  .show-container .show-img img {
+    width: 240px;
+    height:200px;
+  }
+  .home-top .hero{
+    display:none;
+  }
+}
+
+
+/*DOLLMAKERS:Des and Rev CODE*/
+.dollmaker-container {
+  display: flex;
+  padding: 20px;
+  align-items:flex-end;
+  justify-content: space-around;
+}
+.dollmaker-container #maker {
+  width: 430px;
+  height: auto;
+}
+.dollmaker-container .nav-link {
+  color: black;
+}
+#doll-display {
+  height: 420px;
+  width: 420px;
+  background-color: #fff;
+  border: #000 solid;
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items {
+ background-color:rgba(255, 255, 255, 0.5);
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items img {
+  margin: 30px;
+  width: 50px;
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items .skirts {
+  width: 30%;
+  height: 30%;
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items .pixie {
+  height: 30%;
+}
+.doll-items {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  ;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  padding-top: 3px;
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items .drag {
+  position: relative;
+  cursor: hand;
+  z-index: 100;
+}
+.dollmaker-container #maker .tab-content .tab-pane .doll-items .dr-body{
+  height:70px;
+}
+.dollmaker-head {
+  padding-top:3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+#back-button {
+  font-size: .8rem;
+}
+.dollmaker-nopad{
+  padding-top:0px;
+}
+@media screen and (max-width: 768px) {
+  .dollmaker-container {
+    flex-direction: column;
+  }
+}
+
+
+
+/*About*/
+/*About Page*/
+.about-box {
+  display: flex;
+  width: 80%;
+  height: auto;
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  margin: auto;
+  padding: 20px;
+background-color: white;
+
+}
+.about-box img{
+  width:270px;
+  align-content:center;
+}
+.about-content {
+  padding: 20px 50px;
+  min-width: 60%;
+  
+}
+
+
+/*Contact Page*/
+.contact-box {
+  display: flex;
+  width: 80%;
+  height: auto;
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  margin: auto;
+  padding: 10px;
+background-color: white;
+}
+
+.pic2 {
+  padding-left: 50%;
+}
+@media screen and (max-width: 768px) {
+  .about-pic {
+    display: none;
+  }
+  .about-content {
+    width: 100%;
+  }
+}

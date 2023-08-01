@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dollz Mania</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dollzmania.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="main-navbar" class="navbar navbar-expand-md navbar-light p-2  fixed-top" aria-label="Dollzmania navbar">
+    <a class="navbar-brand" href="home.html"> <img src="imgs/logo.png" alt="Dollzmania" height="45"> </a>
+    <!--Button to toggle hamburger when medium-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dolls-nav"
+      aria-controls="dolls-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> </button>
+    <!--Text of Nav Start-->
+    <div class="collapse navbar-collapse" id="dolls-nav">
+      <!--Left nav-->
+      <ul id="ul-nav" class="nav me-auto mb-2 mb-md-0">
+        <li class="nav-item"> <a class="nav-link " href="dollmakers.html">Dollmakers</a></li>
+        <li class="nav-item"> <a class="nav-link " href="about.html">About</a> </li>
+        <li class="nav-item"> <a class="nav-link " href="contact.html">Contact</a> </li>
+        <li class="nav-item d-md-none"> <a class="nav-link " href="#">Login</a> </li>
+        <li class="nav-item d-md-none"> <a class="nav-link " href="#">Sign up</a> </li>
+      </ul>
+      <!--Right nav-->
+      <ul class="nav">
+        <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Login</a> </li>
+        <li class="nav-item d-none d-md-block"> <a class="nav-link " href="#">Sign up</a> </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Main content goes here-->
+  <main>
+    <div class="home-top">
+      <div class="hero">
+        <img src="imgs/home/H_v3.png" alt="Hero Image" />
+        <div id="dollmaker-button" class="col pt-3">
+          <button type="button" id="hero-button" class="btn btn-outline-dark btn-lg" data-bs-toggle="button">CREATE YOUR OWN</button>
+        </div>
+      </div>
+    </div>
+    <h1 id="showcase">Showcase</h1>
+        <div class="swipe-container swiper">
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_1.png" alt="Preppy/ Girly Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_2.png" alt="Alternative Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_3.png" alt="Fantasy Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_4.png" alt="Dollz with Stuff" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_5.png" alt="Bonita Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_6.png" alt="Flava Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_7.png" alt="Raver Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_8.png" alt="Mini Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_9.png" alt="Silent Dollz" />
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img src="imgs/home/Thumbnails_10.png" alt="Wonderkin Dollz" />
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-container">
+          <div class="show-img">
+              <img src="imgs/home/Thumbnails_1.png" alt="Preppy/ Girly Dollz">
+              <img src="imgs/home/Thumbnails_2.png" alt="Alternative Dollz">
+              <img src="imgs/home/Thumbnails_3.png" alt="Fantasy Dollz">
+              <img src="imgs/home/Thumbnails_4.png" alt="Dollz with Stuff">
+              <img src="imgs/home/Thumbnails_5.png" alt="Bonita Dollz">
+              <img src="imgs/home/Thumbnails_6.png" alt="Flava Dollz">
+              <img src="imgs/home/Thumbnails_7.png" alt="Raver Dollz">
+              <img src="imgs/home/Thumbnails_8.png" alt="Mini Dollz">
+              <img src="imgs/home/Thumbnails_9.png" alt="Silent Dollz">
+              <img src="imgs/home/Thumbnails_10.png" alt="Wonderkin Dollz">
+          </div>
+      </div>
+  </main>
+
+  <!--Footer-->
+  <footer id="foot-navbar" class="border-top border-dark">
+    <div id="foot-top">
+      <div class="ends-foot">
+          <a href="home.html"> <img src="imgs/logo.png" alt="Dollzmania"> </a>
+      </div>
+      <div id="middle-foot">
+          <p>Creating and finding Dollz is a beloved pasttime of the former internet. Many of the original Dollz sites
+              have gone offline. It is the objective of this website to archive as much of this as possible, before the
+              rest are gone as well. Sign up and and keep dollz alive.
+          </p>
+      </div>
+      <div class="ends-foot" id="foot-button">
+        <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="button">Sign Up</button>
+      </div>
+  </div>
+    <div id="foot-bottom">
+      <!--Had to do bottom part in Bootstrap. It kept overlapping the links with regular flexbox-->
+      <ul class="nav justify-content-center">
+        <li class="nav-item d-none d-md-block px-2 mb-2">
+          <a class="nav-link" href="devs.html">Developers</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link " href="dollmakers.html">Dollmakers</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item  d-none d-md-block">
+          <a class="nav-link ">Login</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--Bootstrap Java-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--Custom Java-->
+  <script>
+    $(function () {
+      $(document).scroll(function(){
+        var $nav = $("#main-navbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      })
+    })
+        </script>
+
+<!--Javascript by CodingLab | www.codinglabweb.com -->
+  <script src="js/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".slide-container", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  sliderPerGroup: 4,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 0,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 4,
+    },
+  },
+});
+</script>
+</body>
+
+</html>
